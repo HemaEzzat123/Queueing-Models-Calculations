@@ -76,7 +76,6 @@ const InputForm = ({ onSubmit }) => {
             onChange={(e) => setC(e.target.value)}
             className="mt-1 block w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
             placeholder="Enter number of servers (C)"
-            required
           />
         </div>
 
@@ -94,7 +93,6 @@ const InputForm = ({ onSubmit }) => {
             onChange={(e) => setK(e.target.value)}
             className="mt-1 block w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
             placeholder="Enter system capacity (K)"
-            required
           />
         </div>
       </div>
