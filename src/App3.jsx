@@ -3,7 +3,7 @@ import InputForm2 from "./components/InputForm2";
 import SimulationTable from "./components/SimulationTable";
 import CustomerChart from "./components/CustomChart";
 
-function App2() {
+function App3() {
   const [simulationData, setSimulationData] = useState([]);
   const [chartData, setChartData] = useState([]);
   const [model, setModel] = useState("MM1");
@@ -670,4 +670,4 @@ function App2() {
   );
 }
 
-export default App2;
+export default App3;
